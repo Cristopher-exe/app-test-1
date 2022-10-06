@@ -20,12 +20,6 @@ const App = () => {
       {/*<TiposBasicos/>*/}
       {/*<ObjetosLiterales/>*/}
       {<Contador/>}
-      <code>
-                <pre>
-                    {/*JSON.stringify(persona)*/}
-                    {JSON.stringify(persona, null, 2)}
-                </pre>
-            </code>
     </div>
   )
 }
