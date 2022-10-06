@@ -2,7 +2,9 @@ import React from 'react'
 //import { TiposBasicos } from './typescript/TiposBasicos';
 //import {ObjetosLiterales} from './typescript/ObjetosLiterales';
 //import {Contador} from './components/Contador';
-import {ContadorHook} from './components/ContadorHook';
+//import {ContadorHook} from './components/ContadorHook';
+import { Login } from "./components/Login";
+
 const persona = {
   nombre: 'Martha',
   edad: 30,
@@ -21,7 +23,8 @@ const App = () => {
       {/*<TiposBasicos/>*/}
       {/*<ObjetosLiterales/>*/}
       {/*<Contador/>*/}
-      {<ContadorHook/>}
+      {/*<ContadorHook/>*/}
+      {<Login/>}
     </div>
   )
 }
